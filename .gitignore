@@ -1,0 +1,22 @@
+# .gitignore file for picosdk-java-examples repository
+# Untracked files/folders to ignore.
+
+# Windows platforms
+
+**/*.dll
+**/*.lib
+
+# Linux/Mac OS X platforms
+
+**/*.so
+**/*.dylib
+
+# All platforms
+
+**/*.txt
+**/*.h
+
+# shared/PicoScope project
+
+shared/PicoScope/build/**
+
