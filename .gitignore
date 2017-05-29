@@ -15,6 +15,7 @@
 
 **/*.txt
 **/*.h
+**/desktop.ini
 
 # shared/PicoScope project
 
