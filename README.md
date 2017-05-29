@@ -8,6 +8,7 @@ picosdk-java-examples is a set of Java examples for PicoScope oscilloscope and P
 
 * [NetBeans IDE 8.2](https://netbeans.org/) or later, or an equivalent IDE
 * [Java SE Development Kit 8](http://www.oracle.com/technetwork/java/javase/overview/index.html) or later
+* The latest version of the jna.jar from the [java-native-access/jna project](https://github.com/java-native-access/jna).
 
 ### Installing drivers
 
