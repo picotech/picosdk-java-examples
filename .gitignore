@@ -21,3 +21,4 @@
 
 shared/PicoScope/build/**
 
+/ps2000/PicoScope2000JNA/nbproject/private/
