@@ -1,6 +1,6 @@
 # picosdk-java-examples
 
-picosdk-java-examples is a set of Java examples for PicoScope oscilloscope and PicoLog data logger products.
+*picosdk-java-examples* is a set of Java examples for PicoScope oscilloscope and PicoLog data logger products.
 
 ## Getting started
 
@@ -14,7 +14,7 @@ picosdk-java-examples is a set of Java examples for PicoScope oscilloscope and P
 
 Drivers are available for the following platforms. Refer to the subsections below for further information.
 
-#### Windows
+#### Microsoft Windows
 
 * Download the PicoSDK (32-bit or 64-bit) driver package installer from our [Downloads page](https://www.picotech.com/downloads).
 
