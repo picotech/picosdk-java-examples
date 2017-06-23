@@ -1,13 +1,13 @@
 /**************************************************************************
  *
- * Filename:    PS2000CLibrary.java
+ * Filename:    PicoScope2000JNA.java
  *
  * Author:      HSM
  *
  * Description: 
  *  This is an example program demonstrating how to use Java and Java
  * Native Access (JNA) in order to call functions from the ps2000 library
- * for PicoScope series oscilloscopes in order to:
+ * for PicoScope 2000 series oscilloscopes in order to:
  * 
  *      Open a connection to a unit
  *      Print unit information]
@@ -30,13 +30,14 @@
 
 package com.picotech.picoscope.ps2000.jna;
 
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Scanner;
+
 import com.picotech.picoscope.*;
 import com.sun.jna.Memory;
 import com.sun.jna.Native;
 import com.sun.jna.ptr.*;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
 
 public class PicoScope2000JNA 
 {
