@@ -54,6 +54,7 @@ public class PicoScope2000JNA
         
         // Open device
         System.out.println("Opening PicoScope 2000 Series device ...");
+        System.out.println();
         
         short handle = PS2000CLibrary.INSTANCE.ps2000_open_unit();
 
@@ -111,7 +112,7 @@ public class PicoScope2000JNA
             short threshold = (short) (500.0 / VoltageDefinitions.SCOPE_INPUT_RANGES_MV[chARange] * PS2000CLibrary.PS2000_MAX_VALUE);
             short direction = (short) PS2000CLibrary.PS2000TriggerDirection.PS2000_RISING.ordinal();
             float delay = -50.0f; // Place trigger in centre of block 
-            short autoTriggerMs = 0; // Wait indefinitely
+            short autoTriggerMs = 2000; // Wait for 2 seconds (set to 0 to wait indefinitely)
             
             status = PS2000CLibrary.INSTANCE.ps2000_set_trigger2(handle, channelA, threshold, direction, delay, autoTriggerMs);
 
