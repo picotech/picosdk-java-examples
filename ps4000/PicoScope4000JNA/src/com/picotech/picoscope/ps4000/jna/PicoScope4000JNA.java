@@ -137,7 +137,9 @@ public class PicoScope4000JNA
             int variantInfoStatus = PS4000CLibrary.INSTANCE.ps4000GetUnitInfo(handle, infoBytes, (short) infoBytes.length, reqSizeRef, PicoInfo.PICO_VARIANT_INFO);
 
             System.out.println("Variant: " + Native.toString(infoBytes));
-
+            System.out.println("");
+            
+            System.out.println("Closing connection to device.");
             PS4000CLibrary.INSTANCE.ps4000CloseUnit(handle);
         }
     }
