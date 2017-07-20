@@ -7,7 +7,7 @@
  * Description: 
  *  This interface defines functions and enumerations from the ps3000aApi.h
  * C header file for PicoScope 3000 series oscilloscopes using the ps3000a 
- * driver API functions.
+ * library API functions.
  * 
  * Copyright © 2015-2017 Pico Technology Ltd. See LICENSE file for terms.
  * 
