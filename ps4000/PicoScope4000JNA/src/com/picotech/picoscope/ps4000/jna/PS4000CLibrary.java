@@ -7,7 +7,7 @@
  * Description: 
  *  This interface defines functions and enumerations from the ps4000Api.h 
  * C header file for the PicoScope 4000 Series oscilloscopes using the 
- * ps4000 driver API functions.
+ * ps4000 library API functions.
  * 
  * Copyright © 2014-2017 Pico Technology Ltd. See LICENSE file for terms.
  * 
