@@ -16,6 +16,7 @@
 **/*.txt
 **/*.h
 **/desktop.ini
+jna.jar
 
 # shared/PicoScope project
 
