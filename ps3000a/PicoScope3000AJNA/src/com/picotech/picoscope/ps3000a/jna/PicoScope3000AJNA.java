@@ -26,7 +26,7 @@
  * 
  ***************************************************************************/
 
-package com.picotech.picoscope.ps3000ajna;
+package com.picotech.picoscope.ps3000a.jna;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Scanner;

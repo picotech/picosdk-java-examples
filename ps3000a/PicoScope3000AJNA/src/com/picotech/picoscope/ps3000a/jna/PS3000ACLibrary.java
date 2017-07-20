@@ -13,7 +13,7 @@
  * 
  ***************************************************************************/
 
-package com.picotech.picoscope.ps3000ajna;
+package com.picotech.picoscope.ps3000a.jna;
 
 import com.sun.jna.Library;
 import com.sun.jna.Native;
