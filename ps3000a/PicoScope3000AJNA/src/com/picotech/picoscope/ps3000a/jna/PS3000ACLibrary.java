@@ -29,8 +29,8 @@ public interface PS3000ACLibrary extends Library
                                 ("ps3000a", PS3000ACLibrary.class
                                 );
 
-    // Method definitions from ps3000a.h C header file
-    // ==============================================
+    // Method definitions from ps3000aApi.h C header file
+    // ==================================================
     
     // C prototype definition : 
     // 		uint32_t ps3000aEnumerateUnits(int16_t * count, int8_t * serials, int16_t serialLth)
