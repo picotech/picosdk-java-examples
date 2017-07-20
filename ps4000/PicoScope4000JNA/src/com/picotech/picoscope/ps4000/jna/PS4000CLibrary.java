@@ -27,8 +27,8 @@ public interface PS4000CLibrary extends Library
                                         "ps4000", PS4000CLibrary.class
                                     );
 	
-        // Method declarations
-        // ===================
+        // Method definitions from ps4000Api.h C header file
+        // =================================================
         
         // C prototype definition : 
 	//      uint32_t ps4000EnumerateUnits(int16_t * count, int8_t * serials, int16_t serialLth)
