@@ -21,7 +21,7 @@ We will then review the pull request.
 * Include a header in each .java file indicating the filename, author name, date and description of the file if new, or change
 * Include any Javadoc documentation for your classes in a javadoc folder
 * If contributing a new file or project, ensure that it follows the directory and package structure in use e.g.
-  * `com.picotech.picscope.driver-name.jna` for PicoScope JNA examples
+  * `com.picotech.picoscope.driver-name.jna` for PicoScope JNA examples
   * `com.picotech.picolog.driver-name.jna` for PicoLog JNA examples
 * The JDK used to create the examples should match that in [README.md](../README.md)
 * [Commit messages](https://chris.beams.io/posts/git-commit/#seven-rules) should clearly communicate the reason for the change
