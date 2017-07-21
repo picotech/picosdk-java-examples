@@ -23,5 +23,5 @@ We will then review the pull request.
 * If contributing a new file or project, ensure that it follows the directory and package structure in use e.g.
   * `com.picotech.picscope.driver-name.jna` for PicoScope JNA examples
   * `com.picotech.picolog.driver-name.jna` for PicoLog JNA examples
-* The JDK used to create the examples should match that in [README.md](README.md)
+* The JDK used to create the examples should match that in [README.md](../README.md)
 * [Commit messages](https://chris.beams.io/posts/git-commit/#seven-rules) should clearly communicate the reason for the change
