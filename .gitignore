@@ -27,6 +27,11 @@ shared/PicoScope/build/**
 /ps2000/PicoScope2000JNA/dist
 /ps2000/PicoScope2000JNA/nbproject/private/
 
+# PicoScope2000AJNA project
+/ps2000a/PicoScope2000AJNA/build/
+/ps2000a/PicoScope2000AJNA/dist
+/ps2000a/PicoScope2000AJNA/nbproject/private/
+
 # PicoScope3000AJNA project
 /ps3000a/PicoScope3000AJNA/build/
 /ps3000a/PicoScope3000AJNA/dist
