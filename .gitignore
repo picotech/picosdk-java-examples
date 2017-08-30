@@ -52,6 +52,11 @@ shared/PicoScope/build/**
 /ps5000/PicoScope5000JNA/dist
 /ps5000/PicoScope5000JNA/nbproject/private/
 
+# PicoScope5000AJNA project
+/ps5000a/PicoScope5000AJNA/build/
+/ps5000a/PicoScope5000AJNA/dist
+/ps5000a/PicoScope5000AJNA/nbproject/private/
+
 # USBTC08JNA project
 /usbtc08/USBTC08JNA/build/
 /usbtc08/USBTC08JNA/dist
