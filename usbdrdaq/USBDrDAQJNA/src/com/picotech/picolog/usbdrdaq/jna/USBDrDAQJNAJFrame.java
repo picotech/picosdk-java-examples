@@ -244,7 +244,7 @@ public class USBDrDAQJNAJFrame extends javax.swing.JFrame
         
         usbDrDAQJNA = new USBDrDAQJNA();
         
-        if(usbDrDAQJNA.isConnected())
+        if (usbDrDAQJNA.isConnected())
         {
         
             connectUSBDrDAQJButton.setEnabled(false);
@@ -252,8 +252,10 @@ public class USBDrDAQJNAJFrame extends javax.swing.JFrame
 
             usbDrDAQInfoJTextArea.setEnabled(true);
 
-            // TODO: Enable the LED panel
+            
+            
             enableLEDJToggleButton.setEnabled(true);
+            
         }
         else
         {
