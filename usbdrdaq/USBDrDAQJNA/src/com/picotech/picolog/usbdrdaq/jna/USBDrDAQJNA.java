@@ -19,6 +19,7 @@
 package com.picotech.picolog.usbdrdaq.jna;
 
 import com.picotech.picoscope.PicoStatus;
+import com.sun.jna.Native;
 import com.sun.jna.ptr.ShortByReference;
 
 /**
@@ -71,6 +72,29 @@ public class USBDrDAQJNA
         }
         
         return status;
+    }
+    
+    public String getUnitInfo()
+    {
+        String [] description = {"Driver Version", "USB Version", "Hardware Version", "Variant",
+                                    "Serial", "Cal Date", "Kernel Driver"};
+        
+        StringBuilder unitInfoStringBuilder = new StringBuilder();
+        
+        int infoStatus = PicoStatus.PICO_OK;
+        byte[] infoBytes = new byte[80];
+        ShortByReference reqSizeRef = new ShortByReference();
+        
+        for (int i = 0; i < description.length; i++)
+        {
+            reqSizeRef.setValue((short) infoBytes.length);
+            
+            USBDrDAQCLibrary.INSTANCE.UsbDrDaqGetUnitInfo(handle, infoBytes, (short) infoBytes.length, reqSizeRef, i);
+            
+            unitInfoStringBuilder.append(description[i] + ": " + Native.toString(infoBytes) + "\n");
+        }
+        
+        return unitInfoStringBuilder.toString();
     }
     
     public int enableLED(int enabled)

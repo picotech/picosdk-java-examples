@@ -252,7 +252,7 @@ public class USBDrDAQJNAJFrame extends javax.swing.JFrame
 
             usbDrDAQInfoJTextArea.setEnabled(true);
 
-            
+            usbDrDAQInfoJTextArea.append(usbDrDAQJNA.getUnitInfo());
             
             enableLEDJToggleButton.setEnabled(true);
             
