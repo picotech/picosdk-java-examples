@@ -1,6 +1,6 @@
 # picosdk-java-examples
 
-*picosdk-java-examples* is a set of Java examples for PicoScope oscilloscope and PicoLog data logger products.
+*picosdk-java-examples* is a set of Java examples for PicoScope<sup>®</sup> oscilloscope and PicoLog<sup>®</sup> data logger products.
 
 ## Getting started
 
