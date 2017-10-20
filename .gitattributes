@@ -1,0 +1,12 @@
+# .gitattributes file for picosdk-java-examples
+
+* text=auto
+
+# Register text files
+*.java 			text
+*.xml			text
+*.mf  			text
+*.properties	text
+
+# Register as binary files
+*.jar binary
