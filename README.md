@@ -10,6 +10,8 @@
 * [Java SE Development Kit 8](http://www.oracle.com/technetwork/java/javase/overview/index.html) or later
 * The latest version of the jna.jar from the [java-native-access/jna project](https://github.com/java-native-access/jna).
 
+*Note:* Copy the jna.jar file into the root directory of this repository.
+
 ### Installing drivers
 
 Drivers are available for the following platforms. Refer to the subsections below for further information.
