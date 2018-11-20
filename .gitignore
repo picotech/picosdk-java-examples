@@ -71,5 +71,8 @@ shared/PicoScope/build/**
 /usbdrdaq/USBDRDAQJNA/build/
 /usbdrdaq/USBDRDAQJNA/dist
 /usbdrdaq/USBDRDAQJNA/nbproject/private/
-/usbdrdaq/USBDrDAQJNA/nbproject/private/
-/usbdrdaq/USBDrDAQJNA/build/
+
+# USBPT104JNA project
+/usbpt104/USBPT104JNA/nbproject/private/
+/usbpt104/USBPT104JNA/build/
+/usbpt104/USBPT104JNA/nbproject/private/
