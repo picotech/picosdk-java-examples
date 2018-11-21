@@ -24,9 +24,9 @@ Drivers are available for the following platforms. Refer to the subsections belo
 
 * Follow the instructions from our [Linux Software & Drivers for Oscilloscopes and Data Loggers](https://www.picotech.com/downloads/linux) to install the required driver packages for your product.
 
-#### Mac OS X
+#### macOS
 
-* Visit our [Downloads page](https://www.picotech.com/downloads) and download the PicoScope Beta for Mac OS X application.
+* Visit our [Downloads page](https://www.picotech.com/downloads) and download the PicoScope Beta for macOS application.
 
 ### Programmer's Guides
 
@@ -44,15 +44,15 @@ Contributions are welcome. Please refer to our [guidelines for contributing](.gi
 
 See [LICENSE.md](LICENSE.md) for license terms. 
 
-*PicoScope* and *PicoLog* are registered trademarks of Pico Technology Ltd. 
+*PicoScope*, *PicoLog* and *PicoSDK* are registered trademarks of Pico Technology Ltd. 
 
 *Java* and *NetBeans* are registered trademarks of Oracle and/or its affiliates.
 
 *Windows* is a registered trademark of Microsoft Corporation. 
 
-*Mac* and *OS X* are registered trademarks of Apple, Inc. 
+*macOS* is a registered trademark of Apple, Inc. 
 
 *Linux* is the registered trademark of Linus Torvalds in the U.S. and other countries.
 
-Copyright © 2011-2017 Pico Technology Ltd. All rights reserved.
+Copyright © 2011-2018 Pico Technology Ltd. All rights reserved.
 
