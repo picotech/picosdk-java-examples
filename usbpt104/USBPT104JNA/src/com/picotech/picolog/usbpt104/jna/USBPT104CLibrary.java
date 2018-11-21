@@ -32,7 +32,7 @@ public interface USBPT104CLibrary extends Library
     
     // C prototype definition :
     // PICO_STATUS UsbPt104Enumerate(int8_t *details, uint32_t *length, COMMUNICATION_TYPE type);
-    int UsbPt104Enumerate(ShortByReference count, byte[] serials, int type); 
+    int UsbPt104Enumerate(byte[] serials, IntByReference length, int type); 
     
     // C prototype definition : 
     // PICO_STATUS UsbPt104OpenUnit(int16_t *handle, int8_t *serial);
@@ -96,6 +96,11 @@ public interface USBPT104CLibrary extends Library
         {
             this.channel = channel;
         }
+        
+        public int getValue()
+        {
+            return channel;
+        }
     } 
 
     public enum UsbPt104DataType
@@ -121,15 +126,20 @@ public interface USBPT104CLibrary extends Library
 
     public enum CommunicationType
     {
-      CT_USB(Integer.parseInt("0x00000001", 16)),
-      CT_ETHERNET(Integer.parseInt("0x00000002", 16)),
-      CT_ALL(Integer.parseUnsignedInt("0xFFFFFFFF"));
+      CT_USB(Integer.parseInt("00000001", 16)),
+      CT_ETHERNET(Integer.parseInt("00000002", 16)),
+      CT_ALL(Integer.parseUnsignedInt("FFFFFFFF", 16));
     
         private final int communicationType;
 
         CommunicationType(int communicationType)
         {
             this.communicationType = communicationType;
+        }
+        
+        public int getValue()
+        {
+            return communicationType;
         }
     }
 }
